@@ -1,0 +1,12 @@
+config:
+  num_steps: 5
+  lr: 7
+
+
+
+operator:
+  name: down_sampling
+  resolution: 256
+  scale_factor: 4
+  sigma: 0.01
+

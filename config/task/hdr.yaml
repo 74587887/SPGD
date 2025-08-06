@@ -1,0 +1,10 @@
+config:
+  num_steps: 5
+  lr: 1
+
+
+
+operator:
+  name: high_dynamic_range
+  scale: 2
+  sigma: 0.05

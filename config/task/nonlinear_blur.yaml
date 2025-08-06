@@ -1,0 +1,9 @@
+config:
+  num_steps: 5
+  lr: 1
+
+
+operator:
+  name: nonlinear_blur
+  opt_yml_path: forward_operator/bkse/options/generate_blur/default.yml
+  sigma: 0.05

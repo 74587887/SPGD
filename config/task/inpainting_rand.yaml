@@ -1,0 +1,11 @@
+config:
+  num_steps: 5
+  lr: 2.5
+
+
+operator:
+  name: inpainting
+  mask_type: random
+  mask_prob_range: [0.8, 0.8]
+  resolution: 256
+  sigma: 0.01

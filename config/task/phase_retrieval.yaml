@@ -1,0 +1,10 @@
+config:
+  num_steps: 5
+  lr: 2
+
+
+
+operator:
+  name: phase_retrieval
+  oversample: 2.0
+  sigma: 0.05

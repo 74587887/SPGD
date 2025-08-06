@@ -1,0 +1,11 @@
+config:
+  num_steps: 5
+  lr: 1
+
+
+
+operator:
+  name: gaussian_blur
+  kernel_size: 61
+  intensity: 3.0
+  sigma: 0.01

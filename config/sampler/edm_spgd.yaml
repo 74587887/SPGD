@@ -1,0 +1,18 @@
+latent: False
+
+annealing_scheduler_config:
+  num_steps: 200
+  sigma_max: 100
+  sigma_min: 0.1
+  sigma_final: 0
+  schedule: 'linear'
+  timestep: 'poly-7'
+
+Tweedie_scheduler_config:
+  num_steps: 1  # 1 means Tweedie estimation
+  sigma_min: 0.01
+  sigma_final: 0
+  schedule: 'linear'
+  timestep: 'poly-7'
+
+# SPGD configuration will be provided by task config

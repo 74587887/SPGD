@@ -1,0 +1,11 @@
+config:
+  num_steps: 5
+  lr: 1
+
+
+
+operator:
+  name: motion_blur
+  kernel_size: 61
+  intensity: 0.5
+  sigma: 0.01
