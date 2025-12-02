@@ -201,10 +201,11 @@ We gratefully acknowledge their contributions to the field.
 If you find our work useful, please kindly consider citing:
 
 ```bibtex
-@article{wu2025enhancing,
+@inproceedings{wu2025enhancing,
   title={Enhancing Diffusion Model Stability for Image Restoration via Gradient Management},
   author={Wu, Hongjie and Zhang, Mingqin and He, Linchao and Zhou, Ji-Zhe and Lv, Jiancheng},
-  journal={arXiv preprint arXiv:2507.06656},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={10768--10777},
   year={2025}
 }
 ```
